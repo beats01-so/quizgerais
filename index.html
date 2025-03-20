@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tênis - Central</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Menu -->
+    <nav class="menu">
+        <div class="logo">
+            <h1>TÊNIS</h1>
+        </div>
+        <ul>
+            <li><a href="index.html">Central</a> </li>
+            <li><a href="noticias.html">Notícias</a></li>
+            <li><a href="tabelas.html">Tabelas de Jogo</a></li>
+        </ul>
+    </nav>
+
+    <!-- Carrossel -->
+    <div class="carousel">
+        <button class="carousel-btn prev" onclick="moveSlide(-1)">❮</button>
+        <div class="slides">
+            <img src="https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2024/04/16/51348214-tenis-para-o-combate-da-ansiedade-1.jpg" alt="Foto 1">
+            <img src="https://noataque.com.br/wp-content/uploads/2024/09/Bia-Haddad-US-Open-570x321.jpeg" alt="Foto 2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7Ii-4aABk53FCTXB_M811DztW8WvosYZwSw&s" alt="Foto 3">
+        </div>
+        <button class="carousel-btn next" onclick="moveSlide(1)">❯</button>
+    </div>
+
+    <!-- Seção de Notícias -->
+    <section class="noticias">
+        <h2>Notícias do Tênis</h2>
+        <div class="noticia-item">
+            <h3>Bia Haddad</h3>
+            <p>Beatriz Haddad Maia, a número 1 do Brasil, recentemente alcançou as quartas de final de um torneio WTA 500. Sua performance consistente tem elevado o nome do Brasil no circuito mundial.</p>
+            <p>Bia teve um 2024 de altos e baixos, mas terminou o ano com o título em Seoul e boas campanhas em torneios importantes, como as quartas de final do US Open.
+                Em 2025, ela continua competindo em alto nível, com participações confirmadas em torneios como o Australian Open, onde busca melhorar seus resultados anteriores.</p>
+        </div>
+        <div class="noticia-item">
+            <h3>João Fonseca</h3>
+            <p>João Fonseca, jovem promessa do tênis brasileiro, conquistou seu primeiro título em um torneio Future, mostrando grande potencial para o futuro do esporte no país.</p>
+            <p>Após o título em Buenos Aires, Fonseca retornou ao Brasil para disputar o Rio Open 2025, um ATP 500, onde estreou contra o francês Alexandre Muller (nº 58 do mundo).
+                Em torneios Masters 1000, Fonseca já competiu em eventos como Indian Wells e Miami, enfrentando adversários de alto nível, como top 15, e mostrando evolução constante, mesmo em derrotas.
+                Sua sequência de vitórias impressionante desde dezembro de 2024 inclui 20 triunfos em 23 partidas, com destaque para sua invencibilidade no Next Gen ATP Finals e no Challenger de Camberra.</p>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>2025 Notícias do Tênis. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Inclui o arquivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
